@@ -6,11 +6,15 @@ This agent reads a pdf, docx or any other readable file and creates a short summ
 ```bash
 git clone https://github.com/ss4846/File-Summarizing-Agent
 ```
-2. Install dependencies
+2. Change directory to project folder
+```bash
+cd "\path\to\folder\
+```
+3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-3. Run the file
+4. Run the file
 ```bash
-python main.py *document_to_be_summarized.doc_type*
+python main.py <document_to_be_summarized>.<doc_type>
 ```
